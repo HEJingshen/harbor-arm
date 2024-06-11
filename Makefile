@@ -95,7 +95,7 @@ BUILDBASETARGET=trivy-adapter core db jobservice log nginx portal prepare redis 
 IMAGENAMESPACE=kingsonho
 BASEIMAGENAMESPACE=kingsonho
 # #input true/false only
-PULL_BASE_FROM_DOCKERHUB=fasle
+PULL_BASE_FROM_DOCKERHUB=false
 
 # for harbor package name
 PKGVERSIONTAG=v2.11.0
